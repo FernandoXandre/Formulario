@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padrões Web</title>
+    <title>Formulário</title>
 </head>
 <body>
-    <h1></h1>
-    
+    <fieldset
+    <div class="InputBox">
+            <input type="text" name="Nome" id="Nome" class="inputUser" required>
+            <label for="Nome">Nome:</label>
+    </div>
+    <div class="InputBox">
+        <input type="date" name="Data" id="Data" class="inputUser" required>
+        <label for="Nome">Data de Nascimento</label>
+</div>
+<div>
+    <p>Sexo:</p>
+    <input type="radio" id="Masc" name="genero" value="Masc" required>
+    <label for="Masc">Masc</label>
+    <input type="radio" id="Fem" name="genero" value="Fem" required>
+    <label for="Fem">Fem</label>
+    <input type="radio" id="Prefiro não informar" name="genero" value="Prefiro não informar" required>
+    <label for="Prefiro não informar">Prefiro não informar</label>
+</div>
+<div class="InputBox">
+    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+    <label for="endereco">Endereço:</label>
+</div>
+<div class="InputBox">
+    <input type="text" name="logradouro" id="logradouro" class="inputUser" required>
+    <label for="logradouro">Logradouro:</label>
+</div>
+<div class="InputBox">
+    <input type="text" name="bairro" id="bairro" class="inputUser" required>
+    <label for="bairro">Bairro:</label>
+</div>
+<div class="InputBox">
+    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+    <label for="cidade">Cidade:</label>
+</div>
+<label for="uf">UF:</label>
+<select id="uf" name="uf">
+  <option value="df">DF</option>
+  <option value="sp">SP</option>
+  <option value="rj">RJ</option>
+  <option value="mg">MG</option>
+</select>
+<div class="InputBox">
+    <input type="text" name="email" id="email" class="inputUser" required>
+    <label for="email">Email:</label>
+</div>
+<div>
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+</div>
+</fieldset>
 </body>
 </html>
