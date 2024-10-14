@@ -1,6 +1,6 @@
-# Atividadde Formulário
+# Atividade Formulário
 
-# Trabalho Feito por :
+Trabalho Feito por :
 Isac
 Gideão
 Fernando 
